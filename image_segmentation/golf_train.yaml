@@ -1,0 +1,8 @@
+path: ./yolo
+train: train
+test: test
+val: valid
+
+names:
+  0: club
+  1: club_head
