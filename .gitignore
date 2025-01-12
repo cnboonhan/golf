@@ -1,4 +1,5 @@
 venv
-data
+image_segmentation/data/*
+!image_segmentation/data/*.py
 *.pt
 runs
