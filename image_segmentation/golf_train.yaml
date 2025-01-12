@@ -1,8 +1,10 @@
-path: ./yolo
+path: /home/bhn/workspaces/golf/image_segmentation/data/yolo
 train: train
 test: test
 val: valid
+nc: 3
 
 names:
   0: club
   1: club_head
+  2: hand

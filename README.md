@@ -14,12 +14,14 @@ pip3 install -r requirements.txt
 
 ## Image Segmentation
 ```
-# Install dependencies
+cd image_segmentation
+
 # Prepare dataset
-cd image_segmentation/data
+cd data
 gdown 1_freQwcmT6FZqqWjasofRsZlECySeM0p
 unzip "Golf Club Detection.zip" -d coco
 python3 general_json2yolo.py 
+cd ..
 
 # Train model
 python3 main.py
