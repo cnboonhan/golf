@@ -3,6 +3,7 @@ import os
 
 model = YOLO("yolo11n-seg.pt")
 # model = YOLO("/home/bhn/workspaces/golf/runs/segment/train/weights/best.pt")
+# model = YOLO("best.pt")
 
 results = model.train(
     data=f"{os.getcwd()}/golf_train.yaml",
